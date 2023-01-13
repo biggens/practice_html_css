@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Добавление Flash-ролика</title>
+        <script type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/
+            swfobject/2.2/swfobject.js"></script>
+            <script type="text/javascript">
+                var flashvars = {};
+                var params = {movie:"./rammstein-mutter_480x320_youix_com.flv"};
+                swfobject.embedSWF("flash/splayer.swf", "snow",
+                "400", "320", "8.0.0", flashvars, params);
+            </script>
+            <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="snow">
+            <p>Щенок, играющий в снегу</p>
+        </div>
+    </body>
+</html>
