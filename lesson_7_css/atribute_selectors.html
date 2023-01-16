@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Селекторы атрибутов</title>
+        <meta charset="UTF-8">
+        <style>
+            q {
+                font-style: italic;
+                quotes: "\00AB" "\00BB";
+                color: blue;
+            }
+            q[title] {
+                color: maroon;
+            }
+            /* a[target="_blank"] {
+                padding-left: 55px;
+            } */
+            /* a[href^="http://"] {
+                font-weight: bold;
+            } */
+            a[href$=".ru"] {
+                font-weight: bold;
+            }
+            a[href$=".com"] {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p> Продолжая известный закон Мерфи, который
+            гласит: <q>Если неприятность может случиться,
+            то она обязательно случится</q>, можем
+            ввести свое наблюдение:
+            <q title="Из законов Фергюссона-Мержевича">
+                После того, как веб-страница будет корректно
+                отображаться в одном браузере, выяснится,
+                что она неправильно показывается в другом</q>.
+        </p>
+        <!-- <a href="1.html">Обычная ссылка</a>
+        <a href="link2" target="_blank">Ссылка в новом окне</a> -->
+
+        <!-- <a href="1.html">Обычная ссылка</a>
+        <a href="http://www.w3schools.com" target="_blank">Ссылка</a> -->
+        <a href="http://www.yandex.com">Yandex.Com</a>
+        <a href="http://www.yandex.ru">Yandex.Ru</a>
+    </body>
+</html>
