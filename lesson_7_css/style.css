@@ -1,0 +1,69 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1 {
+    color: orange;
+    text-align: right;
+}
+
+h2 {
+    text-align: left;
+    color: blue;
+}
+
+h2:first-of-type {
+    color: orange;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+i {
+    background-color: green;
+    color: white;
+}
+
+ol > li {
+    color: red;
+}
+
+ul:first-of-type  li:first-child li {
+    color: grey;
+}
+
+ul:last-of-type li:first-child li {
+    color: green;
+}
+
+span {
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    color: black;
+    border: solid 1px;
+}
+
+td {
+    border: solid 1px;
+    padding: 2px 15px;
+    font-weight: bold;
+}
+
+tr:nth-child(n+3) td:first-child {
+    color: orange;
+    border-color: black;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 2px;
+}
+
+tr:nth-child(n+3) td:nth-child(n+2){
+    background-color: green;
+    color: white;
+    border-color: black
+}
