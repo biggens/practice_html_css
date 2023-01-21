@@ -1,15 +1,26 @@
+body {
+    background-color: rgb(200, 200, 200);
+}
+
 .page {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 h1 {
-    color: DarkCyan;
+    color: white;
+    background-color: DarkCyan;
+    padding: 15px;
 }
 
 h3 {
-    color: #ee3e80;
+    color: white;
+    background-color: #ee3e80;
+    padding: 15px;
 }
 
 p {
     color: rgb(100, 100, 90);
+    background-color: white;
+    padding: 15px;
 }
