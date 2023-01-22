@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(200, 200, 200);
+    background-color: #c8c8c8;
+    background-color: hsl(0,0%, 78%);
 }
 
 .page {
@@ -20,7 +21,7 @@ h3 {
 }
 
 p {
-    color: rgb(100, 100, 90);
-    background-color: white;
+    background-color: #ffffff;
+    background-color: hsla(0, 100%, 100%, 0.5);
     padding: 15px;
 }
