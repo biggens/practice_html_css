@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Sign up to the app</h1>
+
+        <form action="#">
+        <fieldset>
+            <legend>Personal information:</legend>
+            <p>
+                <label for="f_name">First name:<br />
+                    <input type="text" id="f_name" name="first_name" value="Mickey" size="25" maxlength="30" />
+                </label>
+            </p>
+            <p>
+                <label for="l_name">Last name:<br />
+                    <input type="text" id="l_name" name="last_name" value="Mouse" />
+                </label>
+            </p>
+            <p>
+                <label>Self-presentation:<br />
+                    <textarea rows="10" cols="30" name="about">The cat was playing in the garden.</textarea>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Car info (the brand)</legend>
+            <select name="cars">
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Choose one:</legend>
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="male" checked="checked" /> Male <br />
+            </label>
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="female" /> Female <br />
+            </label>
+            <label for="other">
+                <input type="radio" id="other" name="gender" value="other"/> Ohter <br />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose many:</legend>
+            <label for="bike">
+                <input type="checkbox" id="bike" name="vehicle1" value="bike" checked="checked" /> I have a bike <br />
+            </label>
+            <label for="car">
+                <input type="checkbox" id="car" name="vehicle2" value="car" /> I have a car <br />
+            </label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Submit" onclick="alert('Submit')"/>
+            <button type="button" onclick="alert('Cancel')">Cancel</button>
+        </p>
+    </form>
+    </body>
+</html>
