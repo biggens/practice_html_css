@@ -5,13 +5,25 @@
         <meta charset="UTF-8">
         <style>
             p {
-                border: 5px solid #cccccc;  
+                border: 5px solid red;  
                 padding: 20px;
                 width: 275px;
                 text-align: center;
                 border-radius: 10px;
                 -moz-border-radius: 10px;
                 -webkit-border-radius: 10px;
+            }
+            p.one {
+                border-top-left-radius: 80px 50px;
+            }
+            p.two {
+                border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+            }
+            p.three {
+                padding: 0px;
+                border-radius: 100px;
+                width: 100px;
+                height: 100px;
             }
         </style>
     </head>
@@ -20,5 +32,8 @@
             При записи альбома Pet Sounds был использован целый ряд нетрадиционных инструментов , таких как звонок велосипеда , орган , клавесин , флейты, свисток для собак, поезд, струнные инструменты
 с характерным гавайским звучанием, банки из-под кока-колы и лающие собаки.
         </p>
+        <p class="one"></p>
+        <p class="two"></p>
+        <p class="three"></p>
     </body>
 </html>
