@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+table {
+    background-color: white;
+    margin: 100px auto;
+    border-collapse: collapse;
+
+}
+
+table tr:nth-child(even) {
+    background-color:#DFEAF5;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+table td:nth-child(2n+3) {
+    background-color: #F3F2E0;
+}
