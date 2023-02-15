@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>styling-text</title>
+        <title>styling-submit-button</title>
         <meta charset="UTF-8">
         <style>
             input {
@@ -23,6 +23,18 @@
             input#email, input#twitter, input#pass {
                 background-image: url(../../pages/faq_list5_2.png);
             }
+            input#submit {
+                color: #444444;
+                text-shadow: 0px 1px 1px #ffffff;
+                border-bottom: 2px solid #b2b2b2;
+                background-color: #b9e4e3;
+            }
+            input#submit:hover {
+                color: #333333;
+                border: 1px solid #a4a4a4;
+                border-top: 2px solid #b2b2b2;
+                background-color: #a0dbc4;
+            }
         </style>
     </head>
     <body>
@@ -35,7 +47,8 @@
             </label>
             <label for="pass"><br />
                 <input type="password" id="pass" name="password" value="Введите Пароль" />
-            </label>
+            </label><br />
+            <input type="submit" id="submit" href="#" value="Регистрация" />
         </form>
     </body>
 </html>
