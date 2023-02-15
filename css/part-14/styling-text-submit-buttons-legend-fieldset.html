@@ -35,20 +35,38 @@
                 border-top: 2px solid #b2b2b2;
                 background-color: #a0dbc4;
             }
+            fieldset {
+                width: 350px;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: right;
+            }
+            legend {
+                background-color: #efefef;
+                border: 1px solid #dcdcdc;
+                border-radius: 10px;
+                padding: 10px 20px;
+                text-align: left;
+                text-transform: uppercase;
+            }
         </style>
     </head>
     <body>
         <form action="#">
-            <label for="email">
-                <input type="text" id="email" name="email" value="Введите E-mail" />
-            </label><br />
-            <label for="twitter">
-                <input type="text" id="twitter" name="twitter" value="Введите Twitter" />
-            </label>
-            <label for="pass"><br />
-                <input type="password" id="pass" name="password" value="Введите Пароль" />
-            </label><br />
-            <input type="submit" id="submit" href="#" value="Регистрация" />
+            <fieldset>
+                <legend>Рассылка</legend>
+                <label for="email">
+                    <input type="text" id="email" name="email" value="Введите E-mail" />
+                </label><br />
+                <label for="twitter">
+                    <input type="text" id="twitter" name="twitter" value="Введите Twitter" />
+                </label>
+                <label for="pass"><br />
+                    <input type="password" id="pass" name="password" value="Введите Пароль" />
+                </label><br />
+                <input type="submit" id="submit" href="#" value="Регистрация" />
+            </fieldset>
         </form>
     </body>
 </html>
