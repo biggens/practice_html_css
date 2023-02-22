@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #6f21ce;
+    max-width: 1032px;
+    margin: 100px auto;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 27px 0 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: -7px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 12px;
+}
+
+nav .page-active, nav ul li:hover {
+    background-color: #d6d7dc;
+    box-shadow: -1px 0px 6px 0px #000000;
+}
+
+nav .page-active a, nav ul li:hover > a {
+    color: #616363;
+}
+
+nav li:last-child {
+    float: right;
+}
