@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    letter-spacing: -0.015em;
+}
+.page_back {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #EF812B;
+    border-radius: 4px;
+    padding: 25px 5px 5px 5px;
+    box-shadow: 0px 0px 12px -6px #000000;
+
+}
+
+.top_title {
+    color: #FFF7F3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 25px 0;
+}
+
+.page_front {
+    background-color: #FDFDFD;
+    padding: 20px 15px 30px 15px;
+}
+
+.title_name {
+    color: #434343;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.price {
+    text-align: center;
+    color: #384955;
+    position: relative;
+    left: -20px;
+    font-size: 68px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    margin: 10px 0;
+}
+
+.price .up {
+    font-size: 16px;
+    position: absolute;
+    right: 176px;
+    top: 8px;
+    font-weight: lighter;
+
+}
+
+.price .down {
+    font-size: 16px;
+    position: absolute;
+    right: 40px;
+    top: 56px;
+    font-weight: lighter;
+}
+
+ul {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+ul li {
+    display: block;
+    padding: 10px 0 10px 65px;
+    border-bottom: 3px solid #F7FAFD;
+    color: #949AA2;
+}
+
+
+
+ul li:nth-child(odd) {
+    background-color: #EDF6FD;
+}
+
+ul li:nth-child(even) {
+    background-color: #F6F5F5;
+}
+
+ul li {
+    background: url("./arrow.png") no-repeat;
+    background-position: 42px 11px;
+}
+
+.btn {
+    margin: 0;
+}
+
+.btn a {
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    background: #EF812B;
+    color: white;
+    border-radius: 4px;
+    border-bottom: 2px solid #A35A23;
+    text-align: center;
+    padding: 8px 0;
+    
+}
