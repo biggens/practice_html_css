@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pricing-block {
+    font-family: "Open Sans", Arial, sans-serif;
+    background: white;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 18px -10px #000000;
+    width: 290px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 4px solid #EF812B;
+    text-align: center;
+    cursor: default;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.best-value .title {
+    color: white;
+    background-color: #EF812B;
+}
+
+.content {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 0 0;
+    color: #565556;
+}
+
+.value {
+    color: #35485C;
+    font-size: 63px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 100%;
+    text-transform: none;
+    line-height: 63px;
+}
+
+.value sup {
+    position: relative;
+    font-size: 18px;
+    top: -16px;
+}
+
+.value sub {
+    font-size: 16px;
+    position: relative;
+    left: -5px;
+}
+
+.features {
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto 17px;
+    padding: 0;
+}
+
+.features > li {
+    /* position: relative; */
+    background: url("../lesson_10_css/homeTask/arrow.png") no-repeat;
+    background-position: 28px 8px;
+    text-align: left;
+    color: #7c7a7c;
+    font-size: 15px;
+    text-transform: none;
+    padding: 5px 0 5px 50px;
+    border-bottom: 2px solid #F7FBFE;
+}
+
+.features li:nth-child(odd) {
+    background-color: #EDF6FD;
+}
+.features li:nth-child(even) {
+    background-color: #F6F5F5;
+}
+
+.cta-btn {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    width: 90%;
+    margin: 3px auto 30px;
+    border-radius: 5px;
+    padding: 12px 0;
+    display: block;
+    background: #EF812B;
+    color: white;
+    border-bottom: 3px solid #b25106;
+
+}
