@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>menu_lesson</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #EBE8E3;
+                color: #222;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 300;
+                font-size: 15px;
+            }
+            nav {
+                border: 1px solid #dedede;
+                border-radius: 4px;
+                box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.555);
+                color: #888;
+                background-color: #FFFFFF;
+                margin: 100px auto;
+                width: 90%;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline-block;
+                /* background-color: red; */
+                margin-right: -4px;
+            }
+            nav a {
+                /* display: block; */
+                text-decoration: none;
+                color: #cbbfa9;
+                /* padding: 12px 24px; */
+                padding: 0 24px;
+                line-height: 56px;
+            }
+            nav > .home-menu a > .caret {
+    border-top: 4px solid #aaa;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .home-menu > li:hover {
+    background-color: rgb(40, 44, 47);
+  }
+
+  .home-menu > li:hover > a {
+    color: rgb(255, 255, 255);
+  }
+
+  .home-menu > li:hover > a > .caret {
+    border-top-color: rgb(255, 255, 255);
+  }
+
+  nav .submenu {
+    display: none;
+    background-color: rgb(40, 44, 47);
+    position: absolute;
+    width: 165px;
+  }
+
+  nav > ul > li:hover > .submenu {
+    display: block;
+  }
+
+  .submenu > li {
+    display: block;
+  }
+
+  .submenu > li > a {
+    color: #fff;
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+  }
+
+  .submenu > li:hover > a {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="home-menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Products <span class="caret"></span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Chair</a></li>
+                        <li><a href="#">Table</a></li>
+                        <li><a href="#">Cooker</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

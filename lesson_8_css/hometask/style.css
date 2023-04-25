@@ -1,0 +1,47 @@
+body {
+    font: 18px Oswald, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1032px;
+    cursor: default;
+}
+
+nav {
+    background: #a64dff;
+    box-shadow: 1px 0 3px 3px rgba(0, 0, 0. .1);
+    max-width: 1032px;
+}
+
+nav ul {
+    margin: 0 58px;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: -4px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 6px 16px;
+}
+
+nav li:hover, .active-link {
+    background: #eeeeee;
+}
+
+nav li:hover > a, .active-link > a {
+    color: #a0a0a0;
+}
+
+nav li:last-of-type {
+    float: right;
+}

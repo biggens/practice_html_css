@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>task1</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style_form1.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Sign up to the app</h1>
+        <form>
+            <fieldset>
+                <legend>Personal information:</legend>
+                <p>
+                    <label for="f_name">First name:<br />
+                        <input type="text" id="f_name" name="first_name" value="Mickey" />
+                    </label>
+                </p>
+                <p>
+                    <label for="l_name">Last name:<br />
+                        <input type="text" id="l_name" name="last_name" value="Mouse" />
+                    </label>
+                </p>
+                <p>
+                    <label>Self-presentation:<br />
+                        <textarea name="message" cols="30" rows="10">The cat was playing in the garden.</textarea>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Car info (the brand):</legend>
+                <select name="cars">
+                    <option value="bmw">BMW</option>
+                    <option selected disabled value="mercedes">MERCEDES</option>
+                    <option value="volvo">VOLVO</option>
+                    <option value="audi">AUDI</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Choose one:</legend>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="male" required /> Male
+                </label><br />
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="gender" required /> Female
+                </label><br />
+                <label for="other">
+                    <input type="radio" id="other" name="gender" value="Other" required /> Other
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose many:</legend>
+                <label for="bike">
+                    <input type="checkbox" id="bike" name="bike" value="bike" /> I have a bike
+                </label><br />
+                <label for="cars">
+                    <input type="checkbox" id="cars" name="cars" value="cars" checked="checked" /> I have a car
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" onclick="alert('Submit')"/>
+            <button type="button" onclick="alert('Cancel')">Cancel</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>7-float-layout</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            .wrap {
+                width: 900px;
+                margin: 100px auto;
+            }
+
+            .header, .footer {
+                background-color: darkslateblue;
+                padding: 20px;
+                color: white;
+            }
+            .content {
+                background-color: #fffc7b;
+                padding: 20px;
+                position: relative;
+            }
+            .content::after {
+                content: '';
+                clear: both;
+                display: block;
+            }
+            .col-1, .col-2 {
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .col-1 {
+                background-color: #37c2d3;
+                float: left;
+                width: 33.33%;
+            }
+            .col-2 {
+                background-color: brown;
+                float: left;
+                width: 33.33%;
+            }
+            .col-3 {
+                background-color: #1cb79a;
+                float: left;
+                width: 33.33%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="header">header</div>
+            <div class="content">
+                <div class="col-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta dignissimos dolore
+        doloremque esse magni obcaecati provident ratione? Aperiam, eligendi hic minus perferendis praesentium
+        reiciendis repudiandae similique voluptatem! Aliquam aperiam at dicta dolores eos, explicabo facilis fuga
+        fugiat libero nam natus nesciunt nisi quo veniam, voluptas? Aliquam aut cum, dicta doloremque enim fugiat
+        omnis qui totam vitae voluptatibus? Dolores, quos?
+                </div>
+                <div class="col-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aliquid animi aperiam architecto
+        atque autem beatae consectetur dolor dolores explicabo impedit ipsam laborum magnam, modi natus neque nesciunt
+        numquam odit optio quae quam, quasi quo repellendus tempora tempore totam voluptatum? Aliquam aut, consequatur
+        fuga quibusdam saepe ut! Adipisci amet dignissimos enim eum fuga illo maiores nemo perspiciatis possimus.
+        Consectetur, magnam.
+                </div>
+                <div class="col-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur enim impedit nesciunt
+        officiis ratione similique suscipit tenetur ullam unde velit! Animi, aperiam consequuntur culpa cum cumque
+        cupiditate distinctio dolorem dolorum est eveniet fuga illo ipsum libero molestiae neque officiis optio
+        praesentium quidem reiciendis repudiandae rerum sequi soluta voluptatem. Architecto aspernatur cumque incidunt
+        itaque minima quam sapiente soluta tempore unde voluptates!
+                </div>
+            </div>
+            <div class="footer">footer</div>
+        </div>
+    </body>
+</html>

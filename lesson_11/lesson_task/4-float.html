@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>4-float</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body {
+                font-size: 24px;
+            }
+            .has-float {
+                padding: 10px;
+
+                background-color: pink;
+                border: 4px solid orange;
+            }
+            .note {
+                float: left;
+                width: 20em;
+            }
+            .float {
+                float: right;
+                width: 292px;
+                margin-left: 60px;
+            }
+            .sibling {
+                float: none;
+                clear: right;
+            }
+
+            .clear {
+                clear: both;
+                border: 1px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="has-float">
+            <p class="note">
+                <img src="../../pages/Unknown" alt="rammstein" />
+                Знаменитый исследователь
+                исследований исследователя Васисуалия Холмса, -
+                Иван Микентиевич Ватсон
+            </p>
+            <div class="clear"></div>
+        </div>
+        <div class="sibling">
+            тут рассказ ВООБЩЕ СОВСЕМ про другое, не имеющее отношение к
+            знаменитому исследователю исследований исследователя!
+        </div>
+    </body>
+</html>

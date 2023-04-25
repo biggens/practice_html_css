@@ -1,0 +1,79 @@
+body {
+    font-family: Oswald, sans-serif;
+    letter-spacing: -0.015em;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #FAFAFA;
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 20px 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+nav ul li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    color:#9342C9;
+    padding: 6px 12px;
+    margin: 4px 6px;
+    border: 2px solid #E7E6E7;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    border: 2px solid #8133B7;
+    background-color: #9342C9;
+    color: white;
+}
+
+.pager-active > a {
+    border: 2px solid #8133B7;
+    background-color: #9342C9;
+    color: white;
+}
+
+.pager-suffix > a, .pager-prefix > a {
+    background-color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+}
+
+.pager-suffix:hover > a, .pager-prefix:hover > a {
+    border: 2px solid #8133B7;
+    background-color: #9342C9;
+    color: white;
+}
+
+.pager-prefix > a:before {
+    content: '\00ab';
+    margin-right: 4px;
+}
+
+.pager-suffix > a:after {
+    content: '\00bb';
+    margin-left: 4px;
+}
+
+.pager-interval {
+    color: #666;
+    margin: 0 2px 6px 2px;
+    vertical-align: bottom;
+}

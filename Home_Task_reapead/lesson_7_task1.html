@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>lesson_7_task1</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body {
+                font-size: 18px;
+            }
+            h1 {
+                color: #F5AA2B;
+                text-align: right;
+            }
+            i {
+                font-weight: bold;
+                background-color: green;
+                color: white;
+            }
+            p::first-letter {
+                color: red;
+                font-size: 43px;
+                font-weight: 500;
+            }
+            p + h2 {
+                color: orange;
+            }
+            h2 {
+                color: blue;
+            }
+            ul {
+                font-weight: 700;
+            }
+            ol {
+                color: red;
+                font-weight: 400;
+            }
+            ul:first-of-type li:first-of-type li {
+                color: gray;
+            }
+            ul:last-of-type li:first-of-type li{
+                color: green;
+            }
+            table {
+                border: 1px solid black;
+                text-align: center;
+                font-weight: bold;
+            }
+            td {
+                border: 1px solid black;
+                padding: 5px 20px;
+            }
+            tr:nth-child(n+3) td:first-child  {
+                color: orange;
+                /* border-color: black;
+                text-align: left;
+                font-weight: normal;
+                padding-left: 2px; */
+             }
+
+            tr:nth-child(n+3) td:nth-child(n+2) {
+                background-color: green;
+                color: white;
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Селекторы</h1>
+        <p>
+            Поверхность Мохо несовершенна. Сталагмит <i>зеркально</i> отражает кризис. Аутизм
+            притягивает гомеостаз. Распространение вулканов осознает эксперементальный
+            ортоклаз. Наш современник стал особенно чутко относиться к слову, однако
+            психоанализ значительно иллюстрирует интеграл Гамильтона, как и предполагалось.
+            Денудация <i>положительна</i>
+        </p>
+         <p>
+            Механизм власти фактически означает механизм власти. <i>Очевидно</i>, что упаривание
+            теоретически катализирует полимолекулярный ассоциат. Мицелла лимиторованно
+            возбуждает диэтиловый эфир. Политическая психология гомологична. Впервые
+            газовые гидраты были описаны Гемфри Дэви в 1810 году, <i>однако</i> унитарное 
+            государство ядовито.
+         </p>
+         <h2>Огород</h2>
+         <ul>
+            <li>Фрукты
+                <ol>
+                    <li>Апельсин</li>
+                    <li>Слива</li>
+                    <li>Яблоко</li>
+                </ol>
+            </li>
+            <li>Овощи
+                <ol>
+                    <li>Помидор</li>
+                    <li>Картошка</li>
+                    <li>Огурец</li>
+                </ol>
+            </li>
+         </ul>
+         <h2>Склад</h2>
+         <ul>
+            <li>Фрукты
+                <ol>
+                    <li>Вишня</li>
+                    <li>Груша</li>
+                    <li>Яблоко</li>
+                </ol>
+            </li>
+            <li>Овощи
+                <ol>
+                    <li>Картошка</li>
+                    <li>Баклажан</li>
+                </ol>
+            </li>
+         </ul>
+         <table>
+            <tr>
+                <td rowspan="2">Cтуденты</td>
+                <td colspan="3">Посещение</td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td>Урок 1</td>
+                <td>Урок 2</td>
+                <td>Урок 3</td>
+            </tr>
+            <tr>
+                <td>Саша</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Таня</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Сережа</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+         </table>
+    </body>
+</html>

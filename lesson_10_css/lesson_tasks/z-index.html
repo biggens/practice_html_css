@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>z-index</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            .card IMG {
+                position: relative;
+            }
+            .seven {
+                left: -120px;
+                top: 25px;
+            }
+            .ace {
+                left: -340px;
+                top: 50px;
+            }
+            .three {
+                z-index: 9999;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="card">
+            <img src="../../pages/images.jpeg" alt="3" class="three" />
+            <img src="../../pages/Unknown-2" alt="7" class="seven" />
+            <img src="../../pages/Unknown" alt="туз" class="ace" />
+        </p>
+    </body>
+</html>
