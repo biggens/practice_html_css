@@ -1,0 +1,28 @@
+a {
+    font-size: 26px;
+    color: blue;
+}
+
+a[href*="yandex"] {
+    color: #f70;
+}
+
+a[href^="https://www.google"] {
+    color: #666;
+}
+
+a[target="_blank"]+ span:after {
+    content: '\21f1';
+    margin-left: 7px;
+    font-size: 22px;
+    color: #f70;
+    display: inline-block;
+    transform: scale(-1.5, 1.5);
+}
+
+li:before {
+    content: '\26ab';
+}
+ul {
+    list-style-type: none;
+}
