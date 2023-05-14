@@ -1,0 +1,38 @@
+h1 {
+    color: #F5AA2B;
+    text-align: right;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 28px;
+}
+i {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+h3 {
+    color: orange;
+}
+h3:nth-of-type(even) {
+    color: blue;
+}
+ul {
+    font-weight: bold;
+}
+ul ol {
+    font-weight: lighter;
+    color: green;
+}
+ul ol:first-of-type {
+    color: red;
+}
+
+ul + li {
+    color: blue;
+}
+
+td {
+    border: 2px solid black;
+}
